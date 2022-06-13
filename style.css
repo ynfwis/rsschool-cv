@@ -1,1 +1,95 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+    letter-spacing: .05em;
+    line-height: 2;
+  }
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 20pt;
+    letter-spacing: 0.055em;
+    
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 2px solid salmon;
+    padding-bottom: 5px;
+}
+
+h2::before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+.header {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    opacity: .7;
+}
+
+.nav-top {
+    padding: .4vh 0;
+}
+  
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+
+  .nav-link {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 100px 0 0;
+  }
+
+  
+ .main {
+    width: 80vh;
+    margin: 30px auto 0;
+ }
+
+ .hello {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+ }
+
+ .photo-wrap {
+    padding: 0 5%;
+    margin-left: 20%;
+ }
+
+ .photo {
+    display: flex;
+    height: 300px;
+    border-radius: 60%;
+ }
+
+ .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-right: 25%;
+ }
+
+.contacts-list {
+    list-style-type: none;
+    padding-left: 15px;
+}
 
