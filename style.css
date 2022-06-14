@@ -1,0 +1,189 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+    letter-spacing: .05em;
+    line-height: 2;
+  }
+
+
+a {
+    text-decoration: none;
+    color: #ad3100;
+}
+
+a:visited {
+    color: #743525;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+h2 {
+    font-size: 20pt;
+    letter-spacing: 0.055em;    
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 2px solid salmon;
+    padding-bottom: 5px;
+}
+
+h2::before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+main {
+    padding-top: 50px;
+}
+
+.header {
+    background-color: rgb(238, 215, 213);
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    opacity: .5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    height: 50px;
+    opacity: .5;
+    margin-left: 100px;
+}
+
+.up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+
+.nav-link {
+    display: flex;
+    margin: 0 70px 0 0;
+    
+  }
+
+  
+ .main {
+    width: 100vh;
+    margin: 0 auto;
+ }
+
+ .hello {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    margin-bottom: 50px;
+ }
+
+ .photo-wrap {
+    padding: 0 5%;
+    margin-left: 18%;
+ }
+
+ .photo {
+    display: flex;
+    height: 350px;
+    border-radius: 30%;
+ }
+
+ .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-right: 23%;
+ }
+
+ .skills {
+    padding-left: 5px;
+ }
+
+.skills-list {
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.icon {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-block {
+    margin-top: 50px;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+} 
+
+.noimage {
+    opacity: .2;
+}
+
+.empty {
+    color: rgb(179, 172, 172);
+}
+
+.project-img {
+    width: 100%;
+}
+
+.code-orange {
+    color: orangered;
+}
+
+.code-blue {
+    color: darkcyan;
+}
+
+.code-yellow {
+    color: rgb(172, 172, 20);
+}
+.code-cyan {
+    color: rgb(47, 0, 255);
+}
+
+.footer {
+    background-color: rgb(179, 170, 170);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-img {
+    padding: 10px 50px 10px 50px;
+    height: 30px;
+}
